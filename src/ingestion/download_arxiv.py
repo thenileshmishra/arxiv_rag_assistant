@@ -1,10 +1,4 @@
-#!/usr/bin/env python3
-"""
-Download recent arXiv PDFs with metadata.
 
-Usage:
-  python src/ingestion/download_arxiv.py --query "cat:cs.LG OR cat:cs.AI" --max-results 100
-"""
 import argparse
 import csv
 import os

@@ -1,10 +1,4 @@
-#!/usr/bin/env python3
-"""
-Extract readable text from PDFs and lightly clean it.
 
-Usage:
-  python src/ingestion/parse_pdfs.py
-"""
 import csv
 import re
 from pathlib import Path

@@ -12,7 +12,7 @@ from chromadb.utils import embedding_functions
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--persist-dir", type=str, default="data/chroma")
-    parser.add_argument("--collection-name", type=str, default="arxiv_chunks")
+    parser.add_argument("--collection-name", type=str, default="arxiv-chunks")
     parser.add_argument("--query", type=str, required=True)
     parser.add_argument("--k", type=int, default=3, help="Top-k results")
     args = parser.parse_args()

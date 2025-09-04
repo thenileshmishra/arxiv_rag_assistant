@@ -1,10 +1,4 @@
-#!/usr/bin/env python3
-"""
-Chunk cleaned texts into token windows with overlap.
 
-Usage:
-  python src/ingestion/chunk_texts.py --chunk-size 800 --overlap 150
-"""
 import argparse
 import csv
 import json
